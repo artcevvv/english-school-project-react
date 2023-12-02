@@ -1,8 +1,11 @@
 import React from 'react'
+import Cards from './containers/Cards'
 
 const ModuleOne = () => {
   return (
-    <div>ModuleOne</div>
+    <div className="app__moduleOne-container">
+      <Cards/>
+    </div>
   )
 }
 

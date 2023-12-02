@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./slider.css";
 import { Rerousel } from "rerousel";
 import styled from "styled-components";
-import { first, second, third, fourth } from "../../constants/images.js"
+import { first, second, third, fourth } from '../../../../constants/images'
 
 const Slider = () => {
   const ref = useRef(null);

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Module } from '../../components/exports'
+import Module from '../../components/Modules/module'
 import './Blog.css'
 
-import { moduleOne, moduleTwo, moduleThree, moduleFour, moduleFive } from '../../constants/images'
+import { moduleOne, moduleTwo, moduleThree, moduleFour, moduleFive } from '../../../../constants/images'
 import { Link } from 'react-router-dom'
 
 const Blog = () => {

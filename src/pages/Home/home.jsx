@@ -1,5 +1,5 @@
 import React from 'react'
-import { Blog, Footer, Header } from '../containers/exports';
+import { Blog, Footer, Header } from './containers/exports';
 
 const Home = () => {
   return (
