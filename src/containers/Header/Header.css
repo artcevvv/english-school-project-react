@@ -1,0 +1,60 @@
+.app__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.app__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5rem 0;
+}
+
+.app__header-content h1{
+    font-family: var(--font-family);
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.app__header-btn{
+    width: 100%;
+    margin: 5rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
+.app__header-btn button{
+    flex: 0.6;
+    width: 190px;
+    height: 52px;
+
+    background-color: #1C3EFE;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0 1rem;
+
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.app__header-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__header-image img{
+    width: 50%;
+    height: 100%;
+}
