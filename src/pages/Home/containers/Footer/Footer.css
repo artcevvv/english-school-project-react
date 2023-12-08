@@ -1,6 +1,6 @@
 .app__footer{
     display: flex;
-    color: white;
+    color: var(--color-text);
 
     flex-direction: column;
     justify-content: center;

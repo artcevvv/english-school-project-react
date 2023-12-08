@@ -6,7 +6,7 @@
     font-family: var(--font-family);
     width: 100%;
     flex-direction: column;
-    color: white;
+    color: var(--color-text);
 }
 
 .app__cards-container_grid-heading{

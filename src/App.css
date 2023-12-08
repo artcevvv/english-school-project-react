@@ -9,16 +9,29 @@ body {
     background-color: var(--color-bg);
 }
 
+body[data-theme='light-theme']{
+    --color-bg: #fff;
+    --color-footer: #d9d9d9;
+    --color-blog: #ebe6e6;
+    --color-text: #000;
+    .app__navbar-smallscreen svg{
+        filter: invert();
+    }
+    .app__navbar-links_container img, .app__navbar-logo img{
+        filter: invert();
+    }
+}
+
 body::-webkit-scrollbar {
     width: 12px
 }
 
 body::-webkit-scrollbar-track {
-    background-color: var(--color-bg)
+    background-color: var(--color-footer)
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: var(--color-footer);
+    background-color: var(--color-bg);
     border-radius: 20px;
     border: none;
 }

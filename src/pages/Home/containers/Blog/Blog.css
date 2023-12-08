@@ -14,7 +14,7 @@
     font-family: var(--font-family);
     font-size: 62px;
     line-height: 75px;
-    color: white;
+    color: var(--color-text);
     margin-bottom: 1rem
 }
 

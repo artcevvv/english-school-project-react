@@ -35,7 +35,7 @@
 
     background-color: #1C3EFE;
     border-radius: 5px;
-    color: #fff;
+    color: var(--color-text);
     font-family: var(--font-family);
     font-size: 15px;
     cursor: pointer;

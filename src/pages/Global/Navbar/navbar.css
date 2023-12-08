@@ -1,3 +1,5 @@
+
+
 .app__navbar {
     display: flex;
     justify-content: space-between;
@@ -32,6 +34,7 @@
 .app__navbar-links_container {
     display: flex;
     flex-direction: row;
+    color: var(--color-text);
 }
 
 .app__navbar-links_container p,
@@ -39,7 +42,7 @@
     font-family: var(--font-family);
     line-height: 25px;
     font-size: 15px;
-    color: #fff;
+    color: var(--color-text);
 
     margin: 0 3rem;
 }
@@ -104,4 +107,12 @@
         top: 20px;
     }
     
+}
+
+
+.app__navbar-links_themes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
