@@ -1,0 +1,42 @@
+body{
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+.glossary__content-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.glossary__content-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.glossary__content-btn{
+    margin: 0 10rem;
+    font-family: var(--font-family);
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 3px;
+    user-select: none;
+}
+
+.glossary__content-btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+
+.glossary__content-container_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid white;
+
+}

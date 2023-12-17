@@ -11,14 +11,19 @@ body {
 
 body[data-theme='light-theme']{
     --color-bg: #fff;
-    --color-footer: #d9d9d9;
+    --color-footer: #f9f9fb;
     --color-blog: #ebe6e6;
     --color-text: #000;
+    --color-navbar: #fff;
+    --color-border: #cdcdcd;
     .app__navbar-smallscreen svg{
         filter: invert();
     }
     .app__navbar-links_container img, .app__navbar-logo img{
         filter: invert();
+    }
+    .app__cards-container_grid-heading{
+        border-bottom: 1px solid #b9b9b9;
     }
 }
 

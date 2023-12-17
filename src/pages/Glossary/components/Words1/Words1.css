@@ -1,0 +1,29 @@
+.glossary__words-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.glossary__words-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.glossary__words-section_name{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.glossary__words-section_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.glossary__words-section_content p{
+    margin: 1rem;
+}

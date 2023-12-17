@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-footer);
+    background: var(--color-bg);
     font-family: var(--font-family);
     width: 100%;
     flex-direction: column;
@@ -16,8 +16,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    border-top: 1px solid var(--color-bg);
-    border-bottom: 1px solid var(--color-bg);
+    border-bottom: 1px solid var(--color-footer);
     padding: 1rem 0;
 }
 

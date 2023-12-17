@@ -3,11 +3,11 @@ import "./navbar.css";
 
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../../Assets/svg/logo-white.svg";
-// import logoblc from "../../../Assets/svg/logo.svg";
 import { Link } from "react-router-dom";
 
 const Menu = () => (
   <>
+    <img src={logo} alt="logo" />
     <p>
       {" "}
       <a href="/">
@@ -15,13 +15,30 @@ const Menu = () => (
         <Link to="/">Home</Link>
       </a>
     </p>
-    <img src={logo} alt="logo" />
     <p>
       {" "}
       <a href="/glossary">
         {" "}
         <Link to="/glossary">Glossary</Link>
       </a>
+    </p>
+    <p>
+            <a
+              onClick={() =>
+                document.body.setAttribute("data-theme", "light-theme")
+              }
+            >
+              Light Theme
+            </a>
+    </p>
+    <p>
+    <a
+              onClick={() =>
+                document.body.setAttribute("data-theme", "dark-theme")
+              }
+            >
+              Night Theme
+            </a>
     </p>
   </>
 );
@@ -36,23 +53,9 @@ const Navbar = () => {
         </div>
         <div className="app__navbar-links_container">
           <Menu />
-          <div className="app__navbar-links_themes">
-            <a
-              onClick={() =>
-                document.body.setAttribute("data-theme", "light-theme")
-              }
-            >
-              White
-            </a>
-            <a
-              onClick={() =>
-                document.body.setAttribute("data-theme", "dark-theme")
-              }
-            >
-              Black
-            </a>
-          </div>
+          
         </div>
+        
       </div>
 
       <div className="app__navbar-smallscreen">
