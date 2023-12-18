@@ -10,16 +10,16 @@ const Menu = () => (
     <img src={logo} alt="logo" />
     <p>
       {" "}
-      <a href="/">
+      <a href="/english-school-project-react/">
         {" "}
-        <Link to="/">Home</Link>
+        <Link to="/english-school-project-react/">Home</Link>
       </a>
     </p>
     <p>
       {" "}
-      <a href="/glossary">
+      <a href="/english-school-project-react/glossary">
         {" "}
-        <Link to="/glossary">Glossary</Link>
+        <Link to="/english-school-project-react/glossary">Glossary</Link>
       </a>
     </p>
     <p>

@@ -8,12 +8,12 @@ const Main = () => {
   return (
     <main>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/glossary" element={<Glossary />} />
-        <Route path="/moduleone" element={<ModuleOne />} />
-        <Route path="/moduletwo" element={<ModuleTwo />}/>
-        <Route path="/moduleThree" element={<ModuleThree />}/>
-        <Route path="/moduleFour" element={<ModuleFour />}/>
+        <Route exact path="/english-school-project-react/" element={<Home />} />
+        <Route path="/english-school-project-react/glossary" element={<Glossary />} />
+        <Route path="/english-school-project-react/moduleone" element={<ModuleOne />} />
+        <Route path="/english-school-project-react/moduletwo" element={<ModuleTwo />}/>
+        <Route path="/english-school-project-react/moduleThree" element={<ModuleThree />}/>
+        <Route path="/english-school-project-react/moduleFour" element={<ModuleFour />}/>
       </Routes>
     </main>
   );
