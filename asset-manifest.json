@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/english-school-project-react/static/css/main.acd822ec.css",
-    "main.js": "/english-school-project-react/static/js/main.586bfecb.js",
+    "main.js": "/english-school-project-react/static/js/main.d43fb45f.js",
     "static/media/02.png": "/english-school-project-react/static/media/02.f134b12ac1d391397dd5.png",
     "static/media/04.png": "/english-school-project-react/static/media/04.898a18999935aab053c8.png",
     "static/media/03.png": "/english-school-project-react/static/media/03.3adb448a026469214430.png",
@@ -14,10 +14,10 @@
     "static/media/logo-white.svg": "/english-school-project-react/static/media/logo-white.ab32cc96106d300b7d51ebc20e07788f.svg",
     "index.html": "/english-school-project-react/index.html",
     "main.acd822ec.css.map": "/english-school-project-react/static/css/main.acd822ec.css.map",
-    "main.586bfecb.js.map": "/english-school-project-react/static/js/main.586bfecb.js.map"
+    "main.d43fb45f.js.map": "/english-school-project-react/static/js/main.d43fb45f.js.map"
   },
   "entrypoints": [
     "static/css/main.acd822ec.css",
-    "static/js/main.586bfecb.js"
+    "static/js/main.d43fb45f.js"
   ]
 }
