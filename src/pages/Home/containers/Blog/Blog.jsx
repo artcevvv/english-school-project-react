@@ -14,10 +14,10 @@ const Blog = () => {
           </h1>
           <div className="app__blog-container">
             <div className="app__blog-container_groupA">
-              <Link to= '/moduleone'><Module imgUrl={moduleOne} /></Link>
-              <Link to= '/moduletwo'><Module imgUrl={moduleTwo} /></Link>
-              <Link to= '/modulethree'><Module imgUrl={moduleThree} /></Link>
-              <Link to= '/modulefour'><Module imgUrl={moduleFour} /></Link>
+              <Link to= '/english-school-project-react/moduleone'><Module imgUrl={moduleOne} /></Link>
+              <Link to= '/english-school-project-react/moduletwo'><Module imgUrl={moduleTwo} /></Link>
+              <Link to= '/english-school-project-react/modulethree'><Module imgUrl={moduleThree} /></Link>
+              <Link to= '/english-school-project-react/modulefour'><Module imgUrl={moduleFour} /></Link>
             </div>
             <div className="app__blog-container_groupB">
               <Link to="/glossary"><Module imgUrl={moduleFive} /></Link>
