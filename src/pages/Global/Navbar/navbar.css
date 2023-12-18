@@ -33,6 +33,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    user-select: none;
 }
 
 .app__navbar-links_container {

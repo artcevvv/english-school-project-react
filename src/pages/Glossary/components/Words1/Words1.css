@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+.glossary__words-section{
+    display: flex;
+    flex-direction: row;
+}
+
 .glossary__words-heading{
     display: flex;
     justify-content: center;
@@ -11,12 +16,27 @@
     font-size: 25px;
 }
 
+.glossary__words-section_names{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--color-border);
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+
 .glossary__words-section_name{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    user-select: none;
+    cursor: pointer;
     font-size: 24px;
     font-weight: bold;
     margin: 1rem 0;
+}
+
+.glossary__words-section_name:hover{
+    text-decoration: underline;
 }
 
 .glossary__words-section_content{
@@ -26,4 +46,14 @@
 
 .glossary__words-section_content p{
     margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .glossary__words-section_name{
+        font-size: 20px;
+    }
+    .glossary__words-heading{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
 }
