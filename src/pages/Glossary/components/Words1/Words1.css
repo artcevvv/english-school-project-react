@@ -57,3 +57,15 @@
         margin-bottom: 1rem;
     }
 }
+
+@media screen and (max-width:576px){
+    .glossary__words-heading{
+        margin: 1rem 0;
+    }
+    .section__padding{
+        padding: 1rem 2rem;
+    }
+    .glossary__words-section_name{
+        font-size: 15px;
+    }
+}
