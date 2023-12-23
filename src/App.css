@@ -16,6 +16,8 @@ body[data-theme='light-theme']{
     --color-text: #000;
     --color-navbar: #fff;
     --color-border: #cdcdcd;
+    --color-button: #3498db;
+    --btn-text: #fff;
     .app__navbar-smallscreen svg{
         filter: invert();
     }

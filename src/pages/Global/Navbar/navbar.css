@@ -1,6 +1,18 @@
 body{
     background: var(--color-navbar);
-    
+}
+
+.nav_btn{
+    background: transparent;
+    color: var(--color-text);
+    border: none;
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.nav_btn:hover{
+    cursor: pointer;
 }
 
 .app__navbar {
@@ -43,7 +55,7 @@ body{
 }
 
 .app__navbar-links_container p,
-.app__navbar-smallscreen_links p {
+.app__navbar-smallscreen_links p{
     font-family: var(--font-family);
     line-height: 25px;
     font-size: 15px;
@@ -110,6 +122,5 @@ body{
     
     .app__navbar-smallscreen_links{
         top: 20px;
-    }
-    
+    }   
 }

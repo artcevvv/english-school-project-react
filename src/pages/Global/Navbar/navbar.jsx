@@ -23,22 +23,14 @@ const Menu = () => (
       </a>
     </p>
     <p>
-            <a
-              onClick={() =>
-                document.body.setAttribute("data-theme", "light-theme")
-              }
-            >
-              Light Theme
-            </a>
+      <button className="nav_btn" onClick={() => document.body.setAttribute("data-theme", "light-theme")}>
+        Light Theme
+      </button>
     </p>
     <p>
-    <a
-              onClick={() =>
-                document.body.setAttribute("data-theme", "dark-theme")
-              }
-            >
-              Night Theme
-            </a>
+      <button className="nav_btn" onClick={() => document.body.setAttribute("data-theme", "dark-theme")}>
+        Night Theme
+      </button>
     </p>
   </>
 );
@@ -53,9 +45,7 @@ const Navbar = () => {
         </div>
         <div className="app__navbar-links_container">
           <Menu />
-          
         </div>
-        
       </div>
 
       <div className="app__navbar-smallscreen">
