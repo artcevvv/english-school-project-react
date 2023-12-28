@@ -1,8 +1,9 @@
 import React from 'react'
+import Cards2 from './containers/Cards2'
 
 const ModuleTwo = () => {
   return (
-    <div>ModuleTwo</div>
+    <Cards2/>
   )
 }
 

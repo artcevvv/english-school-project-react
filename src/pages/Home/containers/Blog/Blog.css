@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     .app__blog-container_groupB{
         width: 100%;
     }

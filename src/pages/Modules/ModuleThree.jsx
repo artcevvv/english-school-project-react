@@ -1,8 +1,9 @@
 import React from 'react'
+import Cards3 from './containers/Cards3'
 
 const ModuleThree = () => {
   return (
-    <div>ModuleThree</div>
+    <Cards3/>
   )
 }
 

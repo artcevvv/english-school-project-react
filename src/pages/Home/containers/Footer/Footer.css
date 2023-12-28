@@ -33,10 +33,20 @@
     margin: 2rem 0;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 850px) {
     .app__footer-text h1{
         font-size: 25px;
         line-height: 31px;
     }    
+}
+
+@media screen and (max-width: 400px) {
+    .app__footer-text h1{
+        font-size: 20px
+    }
+    .app__footer-text_names li{
+        font-size: 15px;
+        margin: 1.5rem 0;
+    }
 }
 

@@ -11,7 +11,7 @@ const Cards = () => {
         
         <Card
           imageUrl={aspect}
-          title="Make up a word"
+          title="Make up a word or a phrase"
           LinkTo="https://forms.gle/R1GP6cyfN1hkrYBK8"
           difficulty="Easy"
         />
