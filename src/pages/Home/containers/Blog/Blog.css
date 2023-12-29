@@ -71,10 +71,21 @@
     .app__blog-container_groupB{
         width: 360px;
     }
+    .app__blog-heading h1{
+        font-size: 30px;
+        line-height: 52px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .app__blog-container_groupB{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .app__blog-heading h1{
+        font-size: 25px;
+        line-height: 52px;
     }
 }
