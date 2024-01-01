@@ -1,10 +1,11 @@
 import React from 'react'
+import './Words.css'
 
-const Words3 = () => {
+const Words4 = () => {
   return (
     <div className="glossary__words-container">
       <div className="glossary__words-heading">
-        Words1
+        Not Ready Yet =)
       </div>
       <div className="glossary__words-section">
         
@@ -13,4 +14,4 @@ const Words3 = () => {
   )
 }
 
-export default Words3
+export default Words4

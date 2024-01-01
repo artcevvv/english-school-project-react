@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Words1.css";
+import "./Words.css";
 
 const Words1 = () => {
   const [Intro, setIntro] = useState(true);
