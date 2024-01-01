@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/english-school-project-react/static/css/main.7149f54f.css",
-    "main.js": "/english-school-project-react/static/js/main.4edb7dcc.js",
+    "main.css": "/english-school-project-react/static/css/main.a320727c.css",
+    "main.js": "/english-school-project-react/static/js/main.fb3bfc7f.js",
     "static/media/02.png": "/english-school-project-react/static/media/02.f134b12ac1d391397dd5.png",
     "static/media/04.png": "/english-school-project-react/static/media/04.898a18999935aab053c8.png",
     "static/media/03.png": "/english-school-project-react/static/media/03.3adb448a026469214430.png",
@@ -13,11 +13,11 @@
     "static/media/3.png": "/english-school-project-react/static/media/3.8611dddfa41b17a9593b.png",
     "static/media/logo-white.svg": "/english-school-project-react/static/media/logo-white.ab32cc96106d300b7d51ebc20e07788f.svg",
     "index.html": "/english-school-project-react/index.html",
-    "main.7149f54f.css.map": "/english-school-project-react/static/css/main.7149f54f.css.map",
-    "main.4edb7dcc.js.map": "/english-school-project-react/static/js/main.4edb7dcc.js.map"
+    "main.a320727c.css.map": "/english-school-project-react/static/css/main.a320727c.css.map",
+    "main.fb3bfc7f.js.map": "/english-school-project-react/static/js/main.fb3bfc7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7149f54f.css",
-    "static/js/main.4edb7dcc.js"
+    "static/css/main.a320727c.css",
+    "static/js/main.fb3bfc7f.js"
   ]
 }
