@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/english-school-project-react/static/css/main.a320727c.css",
-    "main.js": "/english-school-project-react/static/js/main.fb3bfc7f.js",
+    "main.js": "/english-school-project-react/static/js/main.f2fe437a.js",
     "static/media/02.png": "/english-school-project-react/static/media/02.f134b12ac1d391397dd5.png",
     "static/media/04.png": "/english-school-project-react/static/media/04.898a18999935aab053c8.png",
     "static/media/03.png": "/english-school-project-react/static/media/03.3adb448a026469214430.png",
     "static/media/1.png": "/english-school-project-react/static/media/1.4e5833fc6de17fa8d62a.png",
     "static/media/5.png": "/english-school-project-react/static/media/5.c9b9f966e02a35fe8c81.png",
     "static/media/2.png": "/english-school-project-react/static/media/2.5481669472e169f4e66c.png",
-    "static/media/aspect.jpg": "/english-school-project-react/static/media/aspect.aab4c7c43d26cb028ecc.jpg",
     "static/media/4.png": "/english-school-project-react/static/media/4.9cde395e809426906822.png",
     "static/media/3.png": "/english-school-project-react/static/media/3.8611dddfa41b17a9593b.png",
     "static/media/logo-white.svg": "/english-school-project-react/static/media/logo-white.ab32cc96106d300b7d51ebc20e07788f.svg",
     "index.html": "/english-school-project-react/index.html",
     "main.a320727c.css.map": "/english-school-project-react/static/css/main.a320727c.css.map",
-    "main.fb3bfc7f.js.map": "/english-school-project-react/static/js/main.fb3bfc7f.js.map"
+    "main.f2fe437a.js.map": "/english-school-project-react/static/js/main.f2fe437a.js.map"
   },
   "entrypoints": [
     "static/css/main.a320727c.css",
-    "static/js/main.fb3bfc7f.js"
+    "static/js/main.f2fe437a.js"
   ]
 }
